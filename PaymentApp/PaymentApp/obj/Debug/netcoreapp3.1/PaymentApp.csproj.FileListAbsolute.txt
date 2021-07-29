@@ -1,0 +1,15 @@
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\bin\Debug\netcoreapp3.1\PaymentApp.exe
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\bin\Debug\netcoreapp3.1\PaymentApp.deps.json
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\bin\Debug\netcoreapp3.1\PaymentApp.runtimeconfig.json
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\bin\Debug\netcoreapp3.1\PaymentApp.runtimeconfig.dev.json
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\bin\Debug\netcoreapp3.1\PaymentApp.dll
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\bin\Debug\netcoreapp3.1\PaymentApp.pdb
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.csproj.AssemblyReference.cache
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.Form1.resources
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.csproj.GenerateResource.cache
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.AssemblyInfoInputs.cache
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.AssemblyInfo.cs
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.csproj.CoreCompileInputs.cache
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.dll
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.pdb
+E:\NCVI\C# Tutorials\PaymentApp\PaymentApp\obj\Debug\netcoreapp3.1\PaymentApp.genruntimeconfig.cache
