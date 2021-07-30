@@ -15,7 +15,7 @@ namespace PaymentApp
             Random num = new Random();
             return num.Next(1, 100);
         }
-        
+
         public int discountedAmount(int amountToPay, int discount)
         {
             return (amountToPay * discount) / 100;
@@ -25,5 +25,32 @@ namespace PaymentApp
         {
             return total_amount - amount;
         }
+        public string displayResult(string paymentType, int amountToPay, int cashIn, int discount, int discountedAmount, int balance)
+        {
+            string output_format = "Payment type: " + paymentType +
+                "\nAmount to Pay: " + amountToPay +
+                "\nCash In: " + cashIn +
+                "\nDiscount rewarded: " + discount +
+                "\nDiscounted Amount: " + discountedAmount +
+                "\nPaid Amount: " + cashIn +
+                "\nBalance: " + balance;
+            return output_format;
+        }
+
+    }
+
+    class Cash : Payment
+    {
+
+    }
+
+    class CreditCard : Payment
+    {
+
+    }
+
+    class BanK : Payment
+    {
+
     }
 }

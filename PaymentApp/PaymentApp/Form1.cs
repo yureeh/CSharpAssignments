@@ -22,8 +22,6 @@ namespace PaymentApp
         private void payBtn_Click(object sender, EventArgs e)
         {
             // Generate random discount
-            /*Random num = new Random();
-            int discount = num.Next(1, 100);*/
             Payment p = new Payment();
             int discount = p.discountGenerator();
 
@@ -31,36 +29,23 @@ namespace PaymentApp
             p.amountToPay = int.Parse(amountToPayTxt.Text);
 
             // Set cashIn amount
-            /*int cashIn = int.Parse(amountTxt.Text);*/
             p.cashIn = int.Parse(amountTxt.Text);
 
             // Set Payment Type
-            p.paymentType = paymentType();
+            p.paymentType = paymentTypeAction();
 
             // Set discounted amount
             int discountedAmount = p.discountedAmount(p.amountToPay, discount);
 
             // Set balance
-            /*int balance = discountedAmount - cashIn;*/
             int balance = p.balance(discountedAmount, p.cashIn);
-
-            displayResult(p.paymentType, p.amountToPay, p.cashIn, discount, discountedAmount, balance);
-        }
-        public void displayResult(string paymentType, int amountToPay, int cashIn, int discount, int discountedAmount, int balance)
-        {
-            string output_format = "Payment type: " + paymentType +
-                "\nAmount to Pay: " + amountToPay +
-                "\nCash In: " + cashIn +
-                "\nDiscount rewarded: " + discount +
-                "\nDiscounted Amount: " + discountedAmount +
-                "\nPaid Amount: " + cashIn +
-                "\nBalance: " + balance;
+            string output_format = p.displayResult(p.paymentType, p.amountToPay, p.cashIn, discount, discountedAmount, balance);
             DialogResult d = MessageBox.Show(output_format
                 , "Payment Summary", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (d == DialogResult.Yes) Close();
         }
 
-        public string paymentType()
+        public string paymentTypeAction()
         {
             string paymentType = "";
             bool isCheckedCashRd = cashRd.Checked;
